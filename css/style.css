@@ -70,6 +70,10 @@ aside .side-images img{
 	text-align: center;
 }
 
+/* DATA */
+.data-table{
+	margin-top: 50px;
+}
 /* FOOTER */
 footer{
 	background-color: #666;
