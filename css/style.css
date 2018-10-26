@@ -37,7 +37,7 @@ main{
 aside,.main-container{
 	padding: 20px;
 }
-.main h1, .main h2{
+.main h1, .main h2, .main h4{
 	color: #4AAAA5;
 	font-weight: 600;
 }
@@ -55,6 +55,21 @@ aside .side-images img{
 	max-width: 100%;
 	height: auto;
 }
+
+/* COMPARISON */
+.main-comparison{
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.main-comparison img{
+	max-width: 100%;
+	height: auto;
+}
+.main-comparison .comparison-header h4{
+	text-align: center;
+}
+
 /* FOOTER */
 footer{
 	background-color: #666;
