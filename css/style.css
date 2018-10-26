@@ -16,8 +16,8 @@
 
 /* MAIN */
 main{
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 80px;
 	background-color: #EDEDED;
 }
 .main-home .main-content img{
@@ -50,6 +50,10 @@ aside,.main-container{
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #ededed;
+}
+aside .side-images img{
+	max-width: 100%;
+	height: auto;
 }
 /* FOOTER */
 footer{
