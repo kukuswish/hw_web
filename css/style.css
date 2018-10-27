@@ -13,6 +13,9 @@
 	width: auto;
 	height: 100%;
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	background-color: #e7e7e7;
+}
 
 /* MAIN */
 main{
