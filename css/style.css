@@ -54,7 +54,21 @@ aside,.main-container{
 	padding-bottom: 20px;
 	border-bottom: 1px solid #ededed;
 }
+aside .side-images .side-block.current{
+	border: 1px solid #4AAAA5;
+}
 aside .side-images img{
+	max-width: 100%;
+	height: auto;
+}
+aside .side-images .pad{
+	padding: 5px;
+	clear: both;
+}
+
+/* PLOTS */
+.main-home .plot-content img{
+	float: none;
 	max-width: 100%;
 	height: auto;
 }
@@ -85,4 +99,11 @@ footer{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	color: #fff;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 991px){
+	aside .side-images .pad{
+		display: none;
+	}
 }
