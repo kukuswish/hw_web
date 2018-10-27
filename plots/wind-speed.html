@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,8 +30,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="Lattitude" title="Lattitude">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../images/logo.png" alt="Lattitude" title="Lattitude">
             </a>
           </div>
           <div id="navbar" class="navbar-collapse collapse navbar-right">
@@ -39,14 +39,14 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="plots/temperature.html">Temperature</a></li>
-                  <li><a href="plots/humidity.html">Humidity</a></li>
-                  <li><a href="plots/cloudiness.html">Cloudiness</a></li>
-                  <li><a href="plots/wind-speed.html">Wind Speed</a></li>
+                  <li><a href="temperature.html">Temperature</a></li>
+                  <li><a href="humidity.html">Humidity</a></li>
+                  <li><a href="cloudiness.html">Cloudiness</a></li>
+                  <li class="active"><a href="wind-speed.html">Wind Speed</a></li>
                 </ul>
               </li>
-              <li><a href="comparison.html">Comparison</a></li>
-              <li class=""><a href="data.html">Data</a></li>
+              <li><a href="../comparison.html">Comparison</a></li>
+              <li class=""><a href="../data.html">Data</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -62,21 +62,18 @@
             <div class="col-md-8">
               <section class="main-container">
                 <div class="main-header">
-                  <h1>Summary: Latitude vs. X</h1>
+                  <h1>Wind Speed</h1>
                 </div>
-                <div class="main-content clearfix">
-                  <img src="images/Fig1.png" alt="Latitude vs Max Temp">
+                <div class="main-content plot-content clearfix">
+                  <img src="../images/Fig4.png" alt="Latitude vs Wind Speed">
                   <p>
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                  </p>
-                  <p>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    We can see some higher wind speed further away from the equator, but not so much that it would be relevant to say that it's a factor. As with humidity and cloudiness, there is not much of a correlation with it.
                   </p>
                 </div>
               </section>
             </div>
             <div class="col-md-4">
-              <aside class="side-content side-home">
+              <aside class="side-content side-home plot-inner">
                 <h2>
                   Visualizations
                 </h2>
@@ -84,30 +81,30 @@
                   <div class="row clearfix">
                     <div class="col-md-6 col-sm-3 col-xs-6">
                       <div class="side-block">
-                        <a href="plots/temperature.html">
-                          <img src="images/Fig1.png" alt="">
+                        <a href="temperature.html">
+                          <img src="../images/Fig1.png" alt="">
                         </a>
                       </div>
                     </div>
                     <div class="col-md-6 col-sm-3 col-xs-6">
                       <div class="side-block">
-                        <a href="plots/humidity.html">
-                          <img src="images/Fig2.png" alt="">
+                        <a href="humidity.html">
+                          <img src="../images/Fig2.png" alt="">
                         </a>
                       </div>
                     </div>
                     <div class="pad"></div>
                     <div class="col-md-6 col-sm-3 col-xs-6">
                       <div class="side-block">
-                        <a href="plots/cloudiness.html">
-                          <img src="images/Fig3.png" alt="">
+                        <a href="cloudiness.html">
+                          <img src="../images/Fig3.png" alt="">
                         </a>
                       </div>
                     </div>
                     <div class="col-md-6 col-sm-3 col-xs-6">
-                      <div class="side-block">
-                        <a href="plots/wind-speed.html">
-                          <img src="images/Fig4.png" alt="">
+                      <div class="side-block current">
+                        <a href="wind-speed.html">
+                          <img src="../images/Fig4.png" alt="">
                         </a>
                       </div>
                     </div>

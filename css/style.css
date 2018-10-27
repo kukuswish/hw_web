@@ -17,6 +17,9 @@
 	background-color: #e7e7e7;
 }
 
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+	background-color: #4AAAA5;
+}
 /* MAIN */
 main{
 	padding-top: 40px;
@@ -102,8 +105,24 @@ footer{
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
+	.container>.navbar-header{
+		background-color: #4AAAA5;
+	}
+	.navbar-default .navbar-toggle{
+		background-color: transparent;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
 	aside .side-images .pad{
 		display: none;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.main-home .main-content img{
+		max-width: 100%;
+		height: auto;
+		float: none;
 	}
 }
